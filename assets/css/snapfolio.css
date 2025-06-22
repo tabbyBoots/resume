@@ -966,6 +966,18 @@ section,
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
+.portfolio .portfolio-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  cursor: pointer;
+}
+
+.portfolio .portfolio-link:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
 .portfolio .portfolio-wrap {
   transition: 0.4s;
   position: relative;
