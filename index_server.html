@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Tabby Boots - Backend Developer</title>
+  <meta name="description" content="Tabby Boots - Backend Developer specializing in .NET Core C# MVC and AI-assisted development">
+  <meta name="keywords" content="Backend Developer, .NET Core, C# MVC, AI Tools, Database Development, Web Development">
+
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/css/glightbox.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/snapfolio.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column justify-content-center">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="header-container d-flex flex-column align-items-start">
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+          <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+          <li><a href="#skills"><i class="bi bi-tools navicon"></i> Skills</a></li>
+          <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+          <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+          <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="social-links text-center">
+        <a href="https://www.linkedin.com/in/meng-hsun-lee-77806b73/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/tabbyBoots" class="github"><i class="bi bi-github"></i></a>
+        <a href="https://tabbyboots.bloomski.com" class="globe"><i class="bi bi-globe"></i></a>
+        <a href="mailto:leetcodensc68@proton.me" class="email"><i class="bi bi-envelope"></i></a>
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="background-elements">
+        <div class="bg-circle circle-1"></div>
+        <div class="bg-circle circle-2"></div>
+      </div>
+
+      <div class="hero-content">
+
+        <div class="container">
+          <div class="row align-items-center">
+
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+              <div class="hero-text">
+                <h1>Meng Hsun <span class="accent-text">Lee</span></h1>
+                <h2>Backend Developer</h2>
+                <p class="lead">I'm a <span class="typed" data-typed-items="Backend Developer, AI Tool Integrator, Database Designer, System Builder"></span></p>
+                <p class="description">Transitioning from military logistics to software development, bringing systematic thinking and project management experience to backend development.</p>
+
+                <div class="hero-actions">
+                  <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                  <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+
+                <div class="social-links">
+                  <a href="https://www.linkedin.com/in/meng-hsun-lee-77806b73/"><i class="bi bi-linkedin"></i></a>
+                  <a href="https://github.com/tabbyBoots"><i class="bi bi-github"></i></a>
+                  <a href="https://tabbyboots.bloomski.com"><i class="bi bi-globe"></i></a>
+                  <a href="mailto:leetcodensc68@proton.me"><i class="bi bi-envelope"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+              <div class="hero-visual">
+                <div class="profile-container">
+                  <div class="profile-background"></div>
+                  <img src="assets/images/profile-2.webp" alt="Tabby Boots" class="profile-image">
+                  <div class="floating-elements">
+                    <div class="floating-icon icon-1"><i class="bi bi-code-slash"></i></div>
+                    <div class="floating-icon icon-2"><i class="bi bi-database"></i></div>
+                    <div class="floating-icon icon-3"><i class="bi bi-server"></i></div>
+                    <div class="floating-icon icon-4"><i class="bi bi-gear"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="200">
+            <div class="profile-card">
+              <div class="profile-header">
+                <div class="profile-image">
+                  <img src="assets/images/profile-square-3.webp" alt="Profile Image" class="img-fluid">
+                </div>
+                <div class="profile-badge">
+                  <i class="bi bi-check-circle-fill"></i>
+                </div>
+              </div>
+
+              <div class="profile-content">
+                <h3>Tabby Boots</h3>
+                <p class="profession">Backend Developer</p>
+
+                <div class="contact-links">
+                  <a href="mailto:leetcodensc68@proton.me" class="contact-item">
+                    <i class="bi bi-envelope"></i>
+                    leetcodensc68@proton.me
+                  </a>
+                  <a href="tel:+886123456789" class="contact-item">
+                    <i class="bi bi-telephone"></i>
+                    +886 123 456 789
+                  </a>
+                  <a href="https://tabbyboots.bloomski.com/" class="contact-item">
+                    <i class="bi bi-globe"></i>
+                    tabbyboots.bloomski.com
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7" data-aos="fade-left" data-aos-delay="300">
+            <div class="about-content">
+              <div class="section-header">
+                <span class="badge-text">Get to Know Me</span>
+                <h2>From Military Service to Software Development</h2>
+              </div>
+
+              <div class="description">
+                <p>Accomplished professional transitioning from 20+ years of military logistics and procurement to software development. Bringing strong analytical skills, project management experience, and systematic problem-solving approach to web development.</p>
+
+                <p>Currently building expertise in .NET Core C# MVC and modern web technologies through hands-on projects and continuous learning. Passionate about creating efficient, scalable solutions that solve real-world problems.</p>
+              </div>
+
+              <div class="details-grid">
+                <div class="detail-row">
+                  <div class="detail-item">
+                    <span class="detail-label">Specialization</span>
+                    <span class="detail-value">.NET Core C# MVC Development</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Experience Level</span>
+                    <span class="detail-value">Career Changer - Learning</span>
+                  </div>
+                </div>
+                <div class="detail-row">
+                  <div class="detail-item">
+                    <span class="detail-label">Background</span>
+                    <span class="detail-value">20+ Years Military Service</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Languages</span>
+                    <span class="detail-value">Chinese (Native), English (Professional)</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cta-section">
+                <a href="#resume" class="btn btn-primary">
+                  <i class="bi bi-file-earmark-text"></i>
+                  View Resume
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                  <i class="bi bi-chat-dots"></i>
+                  Let's Talk
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills & Technologies</h2>
+        <p>Technical skills and tools I work with, focusing on backend development and AI-assisted workflows</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="skills-category" data-aos="fade-up" data-aos-delay="200">
+              <h3>Core Backend Stack</h3>
+              <div class="skill-list">
+                <div class="skill-item">
+                  <h4>.NET Core C# MVC</h4>
+                  <p>Primary backend framework for web application development</p>
+                </div>
+                <div class="skill-item">
+                  <h4>Microsoft SQL Server</h4>
+                  <p>Currently using for database development and management</p>
+                </div>
+                <div class="skill-item">
+                  <h4>RESTful API Development</h4>
+                  <p>Building and consuming web APIs for application integration</p>
+                </div>
+                <div class="skill-item">
+                  <h4>Web Application Backend Logic</h4>
+                  <p>Implementing business logic and data processing</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="skills-category" data-aos="fade-up" data-aos-delay="300">
+              <h3>Database & Data Management</h3>
+              <div class="skill-list">
+                <div class="skill-item">
+                  <h4>Microsoft SQL Server</h4>
+                  <p>Working experience with database design and queries</p>
+                </div>
+                <div class="skill-item">
+                  <h4>PostgreSQL, MySQL</h4>
+                  <p>Familiar with alternative database systems</p>
+                </div>
+                <div class="skill-item">
+                  <h4>Database Design & Implementation</h4>
+                  <p>Creating efficient database structures and relationships</p>
+                </div>
+                <div class="skill-item">
+                  <h4>Query Development & Optimization</h4>
+                  <p>Writing and optimizing SQL queries for performance</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-lg-6">
+            <div class="skills-category" data-aos="fade-up" data-aos-delay="400">
+              <h3>AI-Enhanced Development Workflow</h3>
+              <div class="skill-list">
+                <div class="skill-item">
+                  <h4>MCP Servers (Smithery.ai)</h4>
+                  <p>Using MCP servers for development assistance and tool integration</p>
+                </div>
+                <div class="skill-item">
+                  <h4>AI Agents (Cline, Roo Code)</h4>
+                  <p>Leveraging AI agents for development acceleration and automation</p>
+                </div>
+                <div class="skill-item">
+                  <h4>LLM-powered Code Generation</h4>
+                  <p>AI-assisted code generation, review, and optimization</p>
+                </div>
+                <div class="skill-item">
+                  <h4>AI-assisted Debugging</h4>
+                  <p>Using AI tools for problem diagnosis and solution finding</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="skills-category" data-aos="fade-up" data-aos-delay="500">
+              <h3>Development Environment</h3>
+              <div class="skill-list">
+                <div class="skill-item">
+                  <h4>Visual Studio Code</h4>
+                  <p>Primary IDE for development and debugging</p>
+                </div>
+                <div class="skill-item">
+                  <h4>Vim/Neovim</h4>
+                  <p>Terminal-based editing and server configuration</p>
+                </div>
+                <div class="skill-item">
+                  <h4>Linux Systems (Pop!_OS, Arch Linux)</h4>
+                  <p>Development and deployment on Linux environments</p>
+                </div>
+                <div class="skill-item">
+                  <h4>Command Line Proficiency</h4>
+                  <p>Efficient terminal-based development workflow</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-lg-12">
+            <div class="skills-category" data-aos="fade-up" data-aos-delay="600">
+              <h3>Supporting Skills</h3>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="skill-list">
+                    <div class="skill-item">
+                      <h4>JavaScript</h4>
+                      <p>Frontend integration and API consumption</p>
+                    </div>
+                    <div class="skill-item">
+                      <h4>HTML/CSS</h4>
+                      <p>Basic frontend implementation and styling</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="skill-list">
+                    <div class="skill-item">
+                      <h4>Vue.js</h4>
+                      <p>Learning modern frontend framework (basic level)</p>
+                    </div>
+                    <div class="skill-item">
+                      <h4>Professional Skills</h4>
+                      <p>Project Management, System Analysis, Problem Solving</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>Professional experience and educational background showcasing my journey from military service to software development</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <!-- Left column with summary and contact -->
+          <div class="col-lg-4">
+            <div class="resume-side" data-aos="fade-right" data-aos-delay="100">
+              <div class="profile-img mb-4">
+                <img src="assets/images/profile-square-3.webp" alt="Profile" class="img-fluid rounded">
+              </div>
+
+              <h3>Professional Summary</h3>
+              <p>Accomplished professional transitioning from 20+ years of military logistics and procurement to software development. Bringing strong analytical skills, project management experience, and systematic problem-solving approach to web development.</p>
+
+              <h3 class="mt-4">Contact Information</h3>
+              <ul class="contact-info list-unstyled">
+                <li><i class="bi bi-envelope"></i> leetcodensc68@proton.me</li>
+                <li><i class="bi bi-phone"></i> +886 123 456 789</li>
+                <li><i class="bi bi-globe"></i> tabbyboots.bloomski.com</li>
+                <li><i class="bi bi-linkedin"></i> linkedin.com/in/meng-hsun-lee-77806b73</li>
+              </ul>
+
+              <h3 class="mt-4">Core Competencies</h3>
+              <ul class="list-unstyled">
+                <li><span class="badge bg-secondary me-1">.NET Core C# MVC</span></li>
+                <li><span class="badge bg-secondary me-1">Microsoft SQL Server</span></li>
+                <li><span class="badge bg-secondary me-1">JavaScript</span></li>
+                <li><span class="badge bg-secondary me-1">HTML/CSS</span></li>
+                <li><span class="badge bg-secondary me-1">Project Management</span></li>
+                <li><span class="badge bg-secondary me-1">System Analysis</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Right column with experience and education -->
+          <div class="col-lg-8 ps-4 ps-lg-5">
+            <!-- Experience Section -->
+            <div class="resume-section" data-aos="fade-up">
+              <h3><i class="bi bi-briefcase me-2"></i>Professional Experience</h3>
+
+              <div class="resume-item">
+                <h4>Procurement Officer</h4>
+                <h5>January 2018 - Present (7 years 5 months)</h5>
+                <p class="company"><i class="bi bi-building"></i> Ministry of National Defense</p>
+                <ul>
+                  <li>Oversee several stages of government procurement contracts, including drafting, execution, and closure, ensuring compliance with public sector regulations</li>
+                  <li>Track contract deliverables, Key Performance Indicators (KPIs), and Service Level Agreements (SLAs) to ensure vendor adherence to terms, timelines, and budgetary constraints</li>
+                  <li>Prepare audit-ready records, contract summaries, and progress reports for senior leadership and external auditors</li>
+                  <li>Developed systematic approach to complex problem-solving and project coordination</li>
+                </ul>
+              </div>
+
+              <div class="resume-item">
+                <h4>Foreign Military Sales (FMS) Liaison Officer</h4>
+                <h5>January 2015 - December 2017</h5>
+                <p class="company"><i class="bi bi-building"></i> Taipei Economic and Cultural Representative Office in the United States</p>
+                <ul>
+                  <li>Led FMS programs related to the US Army, in charge of communication and coordination between US-Taiwan officials</li>
+                  <li>Arranged high ranking courtesy/office calls and unscheduled events</li>
+                  <li>Supervised all FMS transactions and provided procurement/shipment status updates</li>
+                  <li>Developed documentation management skills to keep track of tasks and documents</li>
+                </ul>
+              </div>
+
+              <div class="resume-item">
+                <h4>Logistics Staff Officer</h4>
+                <h5>September 2010 - December 2014</h5>
+                <p class="company"><i class="bi bi-building"></i> Logistics Section (G4) of Army Headquarter</p>
+                <ul>
+                  <li>Managed annual repair/overhaul maintenance budget (approximately 33 million)</li>
+                  <li>Conducted army depot evaluation based on individual budget utilization/performance</li>
+                  <li>Coordination between different government departments to facilitate budget allocation</li>
+                  <li>Developed financial reports to the audition department for review</li>
+                  <li>Honors: Medal of Loyalty and Diligence</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Education Section -->
+            <div class="resume-section" data-aos="fade-up" data-aos-delay="100">
+              <h3><i class="bi bi-mortarboard me-2"></i>Education & Training</h3>
+
+              <div class="resume-item">
+                <h4>Self-Directed Software Development Learning</h4>
+                <h5>2023 - Present</h5>
+                <p class="company"><i class="bi bi-laptop"></i> Online Courses & Personal Projects</p>
+                <p>Intensive study of .NET Core C# MVC, database design, and modern web development practices through hands-on projects and continuous learning.</p>
+              </div>
+
+              <div class="resume-item">
+                <h4>Military Professional Education</h4>
+                <h5>2007 - 2019</h5>
+                <p class="company"><i class="bi bi-award"></i> Various Military Institutions</p>
+                <ul>
+                  <li>United Nation Humanitarian Demining Leader training and certification</li>
+                  <li>Explosive Ordnance Disposal (EOD) training and certification</li>
+                  <li>Commercial acquisition training and certification</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Awards Section -->
+            <div class="resume-section" data-aos="fade-up" data-aos-delay="200">
+              <h3><i class="bi bi-award me-2"></i>Military Honors</h3>
+
+              <div class="resume-item">
+                <h4>Medal of Army Distinguished Service</h4>
+                <h5>2009</h5>
+                <p>Awarded for exceptional leadership in mechanical demining operations</p>
+              </div>
+
+              <div class="resume-item">
+                <h4>Medal of Loyalty and Diligence</h4>
+                <h5>2014</h5>
+                <p>Recognized for outstanding performance in logistics management</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Showcase of my software development projects demonstrating backend development skills and practical application of technologies</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-wrap">
+              <img src="assets/images/project-1.jpg" class="img-fluid" alt="BookLanding Project" loading="lazy">
+              <div class="portfolio-info">
+                <div class="content">
+                  <span class="category">E-Commerce</span>
+                  <h4>BookLanding - Online Bookstore</h4>
+                  <p>Full-stack e-commerce platform built with .NET Core C# MVC and Microsoft SQL Server. Features include product catalog, shopping cart, user authentication, and order management system.</p>
+                  <div class="technologies mb-2">
+                    <span class="badge bg-secondary me-1">.NET Core C# MVC</span>
+                    <span class="badge bg-secondary me-1">Microsoft SQL Server</span>
+                    <span class="badge bg-secondary me-1">JavaScript</span>
+                    <span class="badge bg-secondary me-1">HTML/CSS</span>
+                  </div>
+                  <div class="portfolio-links">
+                    <a href="assets/images/project-1.jpg" class="glightbox" title="BookLanding - Online Bookstore"><i class="bi bi-plus-lg"></i></a>
+                    <a href="#" title="View Project"><i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="portfolio-wrap">
+              <img src="assets/images/project-2.jpg" class="img-fluid" alt="Weather API Project" loading="lazy">
+              <div class="portfolio-info">
+                <div class="content">
+                  <span class="category">API Integration</span>
+                  <h4>Weather Status Website</h4>
+                  <p>Web application that integrates with external weather APIs to provide real-time weather information. Demonstrates API consumption, data parsing, and responsive user interface design.</p>
+                  <div class="technologies mb-2">
+                    <span class="badge bg-secondary me-1">.NET Core</span>
+                    <span class="badge bg-secondary me-1">Weather API</span>
+                    <span class="badge bg-secondary me-1">JavaScript</span>
+                    <span class="badge bg-secondary me-1">Responsive Design</span>
+                  </div>
+                  <div class="portfolio-links">
+                    <a href="assets/images/project-2.jpg" class="glightbox" title="Weather Status Website"><i class="bi bi-plus-lg"></i></a>
+                    <a href="#" title="View Project"><i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="portfolio-wrap">
+              <img src="assets/images/project-3.jpg" class="img-fluid" alt="U-Bike Status Project" loading="lazy">
+              <div class="portfolio-info">
+                <div class="content">
+                  <span class="category">Public API</span>
+                  <h4>U-Bike Status Tracker</h4>
+                  <p>Real-time tracking application for U-Bike availability using public transportation APIs. Features station locations, bike availability status, and user-friendly interface for commuters.</p>
+                  <div class="technologies mb-2">
+                    <span class="badge bg-secondary me-1">.NET Core</span>
+                    <span class="badge bg-secondary me-1">Public Transport API</span>
+                    <span class="badge bg-secondary me-1">Real-time Data</span>
+                    <span class="badge bg-secondary me-1">JavaScript</span>
+                  </div>
+                  <div class="portfolio-links">
+                    <a href="assets/images/project-3.jpg" class="glightbox" title="U-Bike Status Tracker"><i class="bi bi-plus-lg"></i></a>
+                    <a href="#" title="View Project"><i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="portfolio-wrap">
+              <img src="assets/images/project-1.jpg" class="img-fluid" alt="Personal Finance Tracker" loading="lazy">
+              <div class="portfolio-info">
+                <div class="content">
+                  <span class="category">Web Application</span>
+                  <h4>Personal Finance Tracker</h4>
+                  <p>Comprehensive web application for personal financial management. Features expense tracking, budget planning, financial reports, and data visualization using .NET Core MVC architecture.</p>
+                  <div class="technologies mb-2">
+                    <span class="badge bg-secondary me-1">.NET Core C# MVC</span>
+                    <span class="badge bg-secondary me-1">Microsoft SQL Server</span>
+                    <span class="badge bg-secondary me-1">Data Visualization</span>
+                    <span class="badge bg-secondary me-1">User Authentication</span>
+                  </div>
+                  <div class="portfolio-links">
+                    <a href="assets/images/project-1.jpg" class="glightbox" title="Personal Finance Tracker"><i class="bi bi-plus-lg"></i></a>
+                    <a href="#" title="View Project"><i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Let's connect and discuss opportunities in software development</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row g-4 g-lg-5">
+          <div class="col-lg-5">
+            <div class="info-box">
+              <h3>Contact Info</h3>
+              <p>I'm always interested in discussing new opportunities, collaborating on projects, or simply connecting with fellow developers.</p>
+
+              <div class="info-item">
+                <div class="icon-box">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <div class="content">
+                  <h4>Email Address</h4>
+                  <p>leetcodensc68@proton.me</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="icon-box">
+                  <i class="bi bi-telephone"></i>
+                </div>
+                <div class="content">
+                  <h4>Phone Number</h4>
+                  <p>+886 123 456 789</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="icon-box">
+                  <i class="bi bi-globe"></i>
+                </div>
+                <div class="content">
+                  <h4>Website</h4>
+                  <p>https://tabbyboots.bloomski.com/</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="contact-form">
+              <h3>Get In Touch</h3>
+              <p>Feel free to reach out if you'd like to discuss potential opportunities, have questions about my projects, or just want to connect.</p>
+
+              <form action="#" method="post" class="php-email-form">
+                <div class="row gy-4">
+
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                  </div>
+
+                  <div class="col-md-6 ">
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                  </div>
+
+                  <div class="col-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                    <button type="submit" class="btn">Send Message</button>
+                  </div>
+
+                </div>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Meng Hsun, Lee</strong> <span>All Rights Reserved</span></p>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs@1.5.0/dist/purecounter_vanilla.js"></script>
+  <script src="https://unpkg.com/waypoints@4.0.1/lib/noframework.waypoints.min.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+  <script src="https://unpkg.com/imagesloaded@5.0.0/imagesloaded.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/js/glightbox.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Internationalization -->
+  <script src="assets/lang/i18n.js"></script>
+
+  <!-- EmailJS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/snapfolio.js"></script>
+
+</body>
+
+</html>

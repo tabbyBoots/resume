@@ -1,0 +1,324 @@
+{
+  "meta": {
+    "title": "Meng Hsun, Lee - 後端開發工程師",
+    "description": "Meng Hsun, Lee - 專精於 .NET Core C# MVC 與 AI 輔助開發的後端開發工程師",
+    "keywords": "後端開發工程師, .NET Core, C# MVC, AI 工具, 資料庫開發, 網頁開發"
+  },
+  "header": {
+    "nav": {
+      "home": "首頁",
+      "about": "關於我",
+      "skills": "技能",
+      "resume": "履歷",
+      "portfolio": "作品集",
+      "contact": "聯絡"
+    }
+  },
+  "hero": {
+    "name": "Meng Hsun, Lee",
+    "title": "後端開發工程師",
+    "typed_items": "後端開發工程師, 整合AI工具, 資料庫設計, 建構資訊系統",
+    "description": "從軍事後勤轉型至軟體開發，將系統性思維與專案管理經驗帶入後端開發領域。",
+    "cta_primary": "查看我的作品",
+    "cta_secondary": "聯絡我"
+  },
+  "about": {
+    "badge": "認識我",
+    "title": "從軍事服務到後端開發",
+    "profession": "後端開發工程師",
+    "description_1": "擁有20多年軍事後勤與採購經驗的專業人士，正轉型至後端開發領域。將強大的分析能力、專案管理經驗與系統性問題解決方法帶入資訊開發領域。",
+    "description_2": "目前透過實作專案與持續學習，建立 .NET Core C# MVC 與現代後端技術的專業能力。熱衷於運用 AI 工具提升開發效率，創造高效且可擴展的後端解決方案。",
+    "details": {
+      "specialization_label": "專業領域",
+      "specialization_value": ".NET Core C# MVC 開發",
+      "experience_label": "經驗程度",
+      "experience_value": "轉職學習中",
+      "background_label": "背景",
+      "background_value": "20+ 年軍事服務",
+      "languages_label": "語言能力",
+      "languages_value": "中文（母語）、英文（專業程度）"
+    },
+    "contact": {
+      "email": "TabbyBoots@bloomski.com",
+      "phone": "+886 123 456 789",
+      "website": "tabbyboots.bloomski.com"
+    },
+    "cta_resume": "查看履歷",
+    "cta_talk": "聊聊吧"
+  },
+  "skills": {
+    "title": "技能與技術",
+    "subtitle": "專注於後端開發與 AI 輔助工作流程的技術技能與工具",
+    "categories": {
+      "backend": {
+        "title": "核心後端技術",
+        "items": {
+          "dotnet": {
+            "name": ".NET Core C# MVC",
+            "description": "網頁應用程式開發的主要後端框架"
+          },
+          "sqlserver": {
+            "name": "Microsoft SQL Server",
+            "description": "目前用於資料庫開發與管理"
+          },
+          "api": {
+            "name": "RESTful API 開發",
+            "description": "建構與使用網頁 API 進行應用程式整合"
+          },
+          "mvc": {
+            "name": "網頁應用程式後端邏輯",
+            "description": "實作商業邏輯和資料處理"
+          }
+        }
+      },
+      "database": {
+        "title": "資料庫與資料管理",
+        "items": {
+          "mssql": {
+            "name": "Microsoft SQL Server",
+            "description": "資料庫設計與查詢的實務經驗"
+          },
+          "postgres": {
+            "name": "PostgreSQL, MySQL",
+            "description": "熟悉替代資料庫系統"
+          },
+          "design": {
+            "name": "資料庫設計與實作",
+            "description": "建立高效的資料庫結構與關聯"
+          },
+          "queries": {
+            "name": "查詢開發與優化",
+            "description": "撰寫與優化 SQL 查詢以提升效能"
+          }
+        }
+      },
+      "ai_tools": {
+        "title": "AI 增強開發工作流程",
+        "items": {
+          "mcp": {
+            "name": "MCP 伺服器 (Smithery.ai)",
+            "description": "使用 MCP 伺服器進行開發輔助與工具整合"
+          },
+          "agents": {
+            "name": "AI 代理 (Cline, Roo Code)",
+            "description": "運用 AI 代理加速開發與自動化"
+          },
+          "llm": {
+            "name": "LLM 驅動的程式碼生成",
+            "description": "AI 輔助程式碼生成、審查與優化"
+          },
+          "debugging": {
+            "name": "AI 輔助除錯",
+            "description": "使用 AI 工具進行問題診斷與解決方案尋找"
+          }
+        }
+      },
+      "environment": {
+        "title": "開發環境",
+        "items": {
+          "vscode": {
+            "name": "Visual Studio Code",
+            "description": "開發與除錯的主要整合開發環境"
+          },
+          "vim": {
+            "name": "Vim/Neovim",
+            "description": "終端機編輯與伺服器設定"
+          },
+          "linux": {
+            "name": "Linux 系統 (Pop!_OS, Arch Linux)",
+            "description": "Linux 環境下的開發與部署"
+          },
+          "cli": {
+            "name": "命令列熟練度",
+            "description": "高效的終端機開發工作流程"
+          }
+        }
+      },
+      "supporting": {
+        "title": "輔助技能",
+        "items": {
+          "javascript": {
+            "name": "JavaScript",
+            "description": "前端整合與 API 使用"
+          },
+          "html_css": {
+            "name": "HTML/CSS",
+            "description": "基礎前端實作與樣式設計"
+          },
+          "vue": {
+            "name": "Vue.js",
+            "description": "學習現代前端框架（基礎程度）"
+          },
+          "professional": {
+            "name": "專業技能",
+            "description": "專案管理、系統分析、問題解決"
+          }
+        }
+      }
+    }
+  },
+  "resume": {
+    "title": "履歷",
+    "subtitle": "展示從軍事服務轉型至後端開發的專業經歷與教育背景",
+    "summary": {
+      "title": "專業摘要",
+      "content": "擁有20多年軍事後勤與採購經驗的專業人士，正轉型至後端開發領域。將強大的分析能力、專案管理經驗與系統性問題解決方法帶入資訊開發。"
+    },
+    "contact_info": {
+      "title": "聯絡資訊"
+    },
+    "competencies": {
+      "title": "核心能力"
+    },
+    "experience": {
+      "title": "專業經歷",
+      "jobs": {
+        "procurement": {
+          "title": "採購官",
+          "duration": "2018年1月 - 至今（7年5個月）",
+          "company": "國防部",
+          "responsibilities": [
+            "監督政府採購合約的多個階段，包括起草、執行與結案，確保符合公部門法規",
+            "追蹤合約交付項目、關鍵績效指標（KPI）與服務水準協議（SLA），確保廠商遵守條款、時程與預算限制",
+            "為高階主管與外部稽核人員準備稽核就緒記錄、合約摘要與進度報告",
+            "發展系統性方法處理複雜問題解決與專案協調"
+          ]
+        },
+        "fms": {
+          "title": "對外軍售（FMS）聯絡官",
+          "duration": "2015年1月 - 2017年12月（3年）",
+          "company": "駐美國台北經濟文化代表處",
+          "responsibilities": [
+            "主導與美國陸軍相關的 FMS 計畫，負責美台官員間的溝通協調",
+            "安排高階禮貌性拜會與臨時活動",
+            "監督所有 FMS 交易並提供採購/運送狀態更新",
+            "發展文件管理技能以追蹤任務與文件"
+          ]
+        },
+        "logistics": {
+          "title": "後勤參謀官",
+          "duration": "2010年9月 - 2014年12月（4年3個月）",
+          "company": "陸軍總部後勤處（G4）",
+          "responsibilities": [
+            "管理年度修理/大修維護預算（約3300萬）",
+            "根據個別預算使用/績效進行陸軍庫房評估",
+            "協調不同政府部門以促進預算分配",
+            "為稽核部門審查發展財務報告",
+            "榮譽：忠勤獎章"
+          ]
+        }
+      }
+    },
+    "education": {
+      "title": "教育與訓練",
+      "items": {
+        "self_learning": {
+          "title": "自主後端開發學習",
+          "duration": "2023年 - 至今",
+          "institution": "透過實作專案與持續學習，深入研習 .NET Core C# MVC、資料庫設計與 AI 輔助開發實務。",
+          "description": "Intensive study of .NET Core C# MVC, database design, and modern web development practices through hands-on projects and continuous learning."
+        },
+        "military": {
+          "title": "軍事專業教育",
+          "duration": "2007年 - 2019年",
+          "institution": "各軍事機構",
+          "items": [
+            "聯合國人道排雷領導者訓練與認證",
+            "爆裂物處理（EOD）訓練與認證",
+            "商業採購訓練與認證"
+          ]
+        }
+      }
+    },
+    "awards": {
+      "title": "軍事榮譽",
+      "items": {
+        "distinguished": {
+          "title": "陸軍楷模獎章",
+          "year": "2009年",
+          "description": "因在機械排雷作業中展現卓越領導而獲獎"
+        },
+        "loyalty": {
+          "title": "忠勤獎章",
+          "year": "2014年",
+          "description": "因後勤管理傑出表現而獲得表彰"
+        }
+      }
+    }
+  },
+  "portfolio": {
+    "title": "作品集",
+    "subtitle": "展示後端開發專案，呈現伺服器端開發技能與技術實際應用",
+    "projects": {
+      "bookstore": {
+        "category": "電子商務",
+        "title": "BookLanding - 線上書店",
+        "description": "使用 .NET Core C# MVC 與 Microsoft SQL Server 建構的全端電子商務平台。功能包括產品目錄、購物車、使用者認證與訂單管理系統。",
+        "technologies": [".NET Core C# MVC", "Microsoft SQL Server", "JavaScript", "HTML/CSS"]
+      },
+      "weather": {
+        "category": "API 整合",
+        "title": "天氣狀態網站",
+        "description": "整合外部天氣 API 提供即時天氣資訊的網頁應用程式。展示 API 使用、資料解析與響應式使用者介面設計。",
+        "technologies": [".NET Core", "Weather API", "JavaScript", "響應式設計"]
+      },
+      "ubike": {
+        "category": "公共 API",
+        "title": "U-Bike 狀態追蹤器",
+        "description": "使用公共運輸 API 的 U-Bike 可用性即時追蹤應用程式。功能包括站點位置、單車可用狀態與通勤者友善介面。",
+        "technologies": [".NET Core", "公共運輸 API", "即時資料", "JavaScript"]
+      },
+      "finance": {
+        "category": "網頁應用程式",
+        "title": "個人財務追蹤器",
+        "description": "使用 .NET Core MVC 架構的個人財務管理綜合網頁應用程式。功能包括支出追蹤、預算規劃、財務報告與資料視覺化。",
+        "technologies": [".NET Core C# MVC", "Microsoft SQL Server", "資料視覺化", "使用者認證"]
+      }
+    }
+  },
+  "contact": {
+    "title": "聯絡",
+    "subtitle": "讓我們聯繫並討論後端開發的機會",
+    "info": {
+      "title": "聯絡資訊",
+      "description": "我總是樂於討論新機會、合作專案，或單純與同行開發者交流。",
+      "email": {
+        "title": "電子郵件",
+        "value": "TabbyBoots@bloomski.com"
+      },
+      "phone": {
+        "title": "電話號碼",
+        "value": "+886 123 456 789"
+      },
+      "website": {
+        "title": "網站",
+        "value": "https://tabbyboots.bloomski.com/"
+      }
+    },
+    "form": {
+      "title": "聯絡我",
+      "description": "如果您想討論潛在機會、對我的專案有疑問，或只是想聯繫，請隨時與我聯絡。",
+      "placeholders": {
+        "name": "您的姓名",
+        "email": "您的電子郵件",
+        "subject": "主旨",
+        "message": "訊息"
+      },
+      "button": "發送訊息",
+      "messages": {
+        "loading": "載入中",
+        "error": "發生錯誤",
+        "success": "您的訊息已發送。謝謝！"
+      }
+    }
+  },
+  "footer": {
+    "copyright": "版權所有",
+    "rights": "保留所有權利"
+  },
+  "ui": {
+    "scroll_top": "回到頂部",
+    "view_project": "查看專案",
+    "language_toggle": "切換至英文"
+  }
+}

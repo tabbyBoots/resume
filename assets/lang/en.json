@@ -1,0 +1,324 @@
+{
+  "meta": {
+    "title": "Meng Hsun, Lee - Backend Developer",
+    "description": "Meng Hsun, Lee - Backend Developer specializing in .NET Core C# MVC and AI-assisted development",
+    "keywords": "Backend Developer, .NET Core, C# MVC, AI Tools, Database Development, Web Development"
+  },
+  "header": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "skills": "Skills",
+      "resume": "Resume",
+      "portfolio": "Portfolio",
+      "contact": "Contact"
+    }
+  },
+  "hero": {
+    "name": "Meng Hsun, Lee",
+    "title": "Backend Developer",
+    "typed_items": "Backend Developer, AI Tool Integrator, Database Designer, System Builder",
+    "description": "Transitioning from military logistics to software development, bringing systematic thinking and project management experience to backend development.",
+    "cta_primary": "View My Work",
+    "cta_secondary": "Get In Touch"
+  },
+  "about": {
+    "badge": "Get to Know Me",
+    "title": "From Military Service to Backend Development",
+    "profession": "Backend Developer",
+    "description_1": "Accomplished professional transitioning from 20+ years of military logistics and procurement to backend development. Bringing strong analytical skills, project management experience, and systematic problem-solving approach to server-side development.",
+    "description_2": "Currently building expertise in .NET Core C# MVC and modern backend technologies through hands-on projects and continuous learning. Passionate about leveraging AI tools to enhance development productivity and create efficient, scalable backend solutions.",
+    "details": {
+      "specialization_label": "Specialization",
+      "specialization_value": ".NET Core C# MVC Development",
+      "experience_label": "Experience Level",
+      "experience_value": "Career Changer - Learning",
+      "background_label": "Background",
+      "background_value": "20+ Years Military Service",
+      "languages_label": "Languages",
+      "languages_value": "Chinese (Native), English (Professional)"
+    },
+    "contact": {
+      "email": "TabbyBoots@bloomski.com",
+      "phone": "+886 123 456 789",
+      "website": "tabbyboots.bloomski.com"
+    },
+    "cta_resume": "View Resume",
+    "cta_talk": "Let's Talk"
+  },
+  "skills": {
+    "title": "Skills & Technologies",
+    "subtitle": "Technical skills and tools I work with, focusing on backend development and AI-assisted workflows",
+    "categories": {
+      "backend": {
+        "title": "Core Backend Stack",
+        "items": {
+          "dotnet": {
+            "name": ".NET Core C# MVC",
+            "description": "Primary backend framework for web application development"
+          },
+          "sqlserver": {
+            "name": "Microsoft SQL Server",
+            "description": "Currently using for database development and management"
+          },
+          "api": {
+            "name": "RESTful API Development",
+            "description": "Building and consuming web APIs for application integration"
+          },
+          "mvc": {
+            "name": "Web Application Backend Logic",
+            "description": "Implementing business logic and data processing"
+          }
+        }
+      },
+      "database": {
+        "title": "Database & Data Management",
+        "items": {
+          "mssql": {
+            "name": "Microsoft SQL Server",
+            "description": "Working experience with database design and queries"
+          },
+          "postgres": {
+            "name": "PostgreSQL, MySQL",
+            "description": "Familiar with alternative database systems"
+          },
+          "design": {
+            "name": "Database Design & Implementation",
+            "description": "Creating efficient database structures and relationships"
+          },
+          "queries": {
+            "name": "Query Development & Optimization",
+            "description": "Writing and optimizing SQL queries for performance"
+          }
+        }
+      },
+      "ai_tools": {
+        "title": "AI-Enhanced Development Workflow",
+        "items": {
+          "mcp": {
+            "name": "MCP Servers (Smithery.ai)",
+            "description": "Using MCP servers for development assistance and tool integration"
+          },
+          "agents": {
+            "name": "AI Agents (Cline, Roo Code)",
+            "description": "Leveraging AI agents for development acceleration and automation"
+          },
+          "llm": {
+            "name": "LLM-powered Code Generation",
+            "description": "AI-assisted code generation, review, and optimization"
+          },
+          "debugging": {
+            "name": "AI-assisted Debugging",
+            "description": "Using AI tools for problem diagnosis and solution finding"
+          }
+        }
+      },
+      "environment": {
+        "title": "Development Environment",
+        "items": {
+          "vscode": {
+            "name": "Visual Studio Code",
+            "description": "Primary IDE for development and debugging"
+          },
+          "vim": {
+            "name": "Vim/Neovim",
+            "description": "Terminal-based editing and server configuration"
+          },
+          "linux": {
+            "name": "Linux Systems (Pop!_OS, Arch Linux)",
+            "description": "Development and deployment on Linux environments"
+          },
+          "cli": {
+            "name": "Command Line Proficiency",
+            "description": "Efficient terminal-based development workflow"
+          }
+        }
+      },
+      "supporting": {
+        "title": "Supporting Skills",
+        "items": {
+          "javascript": {
+            "name": "JavaScript",
+            "description": "Frontend integration and API consumption"
+          },
+          "html_css": {
+            "name": "HTML/CSS",
+            "description": "Basic frontend implementation and styling"
+          },
+          "vue": {
+            "name": "Vue.js",
+            "description": "Learning modern frontend framework (basic level)"
+          },
+          "professional": {
+            "name": "Professional Skills",
+            "description": "Project Management, System Analysis, Problem Solving"
+          }
+        }
+      }
+    }
+  },
+  "resume": {
+    "title": "Resume",
+    "subtitle": "Professional experience and educational background showcasing my journey from military service to backend development",
+    "summary": {
+      "title": "Professional Summary",
+      "content": "Accomplished professional transitioning from 20+ years of military logistics and procurement to backend development. Bringing strong analytical skills, project management experience, and systematic problem-solving approach to server-side development."
+    },
+    "contact_info": {
+      "title": "Contact Information"
+    },
+    "competencies": {
+      "title": "Core Competencies"
+    },
+    "experience": {
+      "title": "Professional Experience",
+      "jobs": {
+        "procurement": {
+          "title": "Procurement Officer",
+          "duration": "January 2018 - Present (7 years 5 months)",
+          "company": "Ministry of National Defense",
+          "responsibilities": [
+            "Oversee several stages of government procurement contracts, including drafting, execution, and closure, ensuring compliance with public sector regulations",
+            "Track contract deliverables, Key Performance Indicators (KPIs), and Service Level Agreements (SLAs) to ensure vendor adherence to terms, timelines, and budgetary constraints",
+            "Prepare audit-ready records, contract summaries, and progress reports for senior leadership and external auditors",
+            "Developed systematic approach to complex problem-solving and project coordination"
+          ]
+        },
+        "fms": {
+          "title": "Foreign Military Sales (FMS) Liaison Officer",
+          "duration": "January 2015 - December 2017",
+          "company": "Taipei Economic and Cultural Representative Office in the United States",
+          "responsibilities": [
+            "Led FMS programs related to the US Army, in charge of communication and coordination between US-Taiwan officials",
+            "Arranged high ranking courtesy/office calls and unscheduled events",
+            "Supervised all FMS transactions and provided procurement/shipment status updates",
+            "Developed documentation management skills to keep track of tasks and documents"
+          ]
+        },
+        "logistics": {
+          "title": "Logistics Staff Officer",
+          "duration": "September 2010 - December 2014",
+          "company": "Logistics Section (G4) of Army Headquarter",
+          "responsibilities": [
+            "Managed annual repair/overhaul maintenance budget (approximately 33 million)",
+            "Conducted army depot evaluation based on individual budget utilization/performance",
+            "Coordination between different government departments to facilitate budget allocation",
+            "Developed financial reports to the audition department for review",
+            "Honors: Medal of Loyalty and Diligence"
+          ]
+        }
+      }
+    },
+    "education": {
+      "title": "Education & Training",
+      "items": {
+        "self_learning": {
+          "title": "Self-Directed Backend Development Learning",
+          "duration": "2023 - Present",
+          "institution": "Online Courses & Personal Projects",
+          "description": "Intensive study of .NET Core C# MVC, database design, and AI-assisted development practices through hands-on projects and continuous learning."
+        },
+        "military": {
+          "title": "Military Professional Education",
+          "duration": "2007 - 2019",
+          "institution": "Various Military Institutions",
+          "items": [
+            "United Nation Humanitarian Demining Leader training and certification",
+            "Explosive Ordnance Disposal (EOD) training and certification",
+            "Commercial acquisition training and certification"
+          ]
+        }
+      }
+    },
+    "awards": {
+      "title": "Military Honors",
+      "items": {
+        "distinguished": {
+          "title": "Medal of Army Distinguished Service",
+          "year": "2009",
+          "description": "Awarded for exceptional leadership in mechanical demining operations"
+        },
+        "loyalty": {
+          "title": "Medal of Loyalty and Diligence",
+          "year": "2014",
+          "description": "Recognized for outstanding performance in logistics management"
+        }
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Showcase of my backend development projects demonstrating server-side development skills and practical application of technologies",
+    "projects": {
+      "bookstore": {
+        "category": "E-Commerce",
+        "title": "BookLanding - Online Bookstore",
+        "description": "Full-stack e-commerce platform built with .NET Core C# MVC and Microsoft SQL Server. Features include product catalog, shopping cart, user authentication, and order management system.",
+        "technologies": [".NET Core C# MVC", "Microsoft SQL Server", "JavaScript", "HTML/CSS"]
+      },
+      "weather": {
+        "category": "API Integration",
+        "title": "Weather Status Website",
+        "description": "Web application that integrates with external weather APIs to provide real-time weather information. Demonstrates API consumption, data parsing, and responsive user interface design.",
+        "technologies": [".NET Core", "Weather API", "JavaScript", "Responsive Design"]
+      },
+      "ubike": {
+        "category": "Public API",
+        "title": "U-Bike Status Tracker",
+        "description": "Real-time tracking application for U-Bike availability using public transportation APIs. Features station locations, bike availability status, and user-friendly interface for commuters.",
+        "technologies": [".NET Core", "Public Transport API", "Real-time Data", "JavaScript"]
+      },
+      "finance": {
+        "category": "Web Application",
+        "title": "Personal Finance Tracker",
+        "description": "Comprehensive web application for personal financial management. Features expense tracking, budget planning, financial reports, and data visualization using .NET Core MVC architecture.",
+        "technologies": [".NET Core C# MVC", "Microsoft SQL Server", "Data Visualization", "User Authentication"]
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Let's connect and discuss opportunities in backend development",
+    "info": {
+      "title": "Contact Info",
+      "description": "I'm always interested in discussing new opportunities, collaborating on projects, or simply connecting with fellow developers.",
+      "email": {
+        "title": "Email Address",
+        "value": "TabbyBoots@bloomski.com"
+      },
+      "phone": {
+        "title": "Phone Number",
+        "value": "+886 123 456 789"
+      },
+      "website": {
+        "title": "Website",
+        "value": "https://tabbyboots.bloomski.com/"
+      }
+    },
+    "form": {
+      "title": "Get In Touch",
+      "description": "Feel free to reach out if you'd like to discuss potential opportunities, have questions about my projects, or just want to connect.",
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "subject": "Subject",
+        "message": "Message"
+      },
+      "button": "Send Message",
+      "messages": {
+        "loading": "Loading",
+        "error": "Error occurred",
+        "success": "Your message has been sent. Thank you!"
+      }
+    }
+  },
+  "footer": {
+    "copyright": "Copyright",
+    "rights": "All Rights Reserved"
+  },
+  "ui": {
+    "scroll_top": "Scroll to top",
+    "view_project": "View Project",
+    "language_toggle": "Switch to Chinese"
+  }
+}
