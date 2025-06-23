@@ -257,10 +257,10 @@
         "technologies": [".NET Core C# MVC", "Microsoft SQL Server", "JavaScript", "HTML/CSS"]
       },
       "weather": {
-        "category": "API 整合",
-        "title": "天氣狀態網站",
-        "description": "整合外部天氣 API 提供即時天氣資訊的網頁應用程式。展示 API 使用、資料解析與響應式使用者介面設計。",
-        "technologies": [".NET Core", "Weather API", "JavaScript", "響應式設計"]
+        "category": "公共 API 整合",
+        "title": "U-Bike 可用性狀態網站",
+        "description": "使用台北市官方 API 的即時 U-Bike 站點可用性追蹤網站。前端使用 Vue.js 建構，後端採用 C# WebAPI，並使用 Vite 處理 CI/CD 流程。",
+        "technologies": ["Vue.js", "C# WebAPI", "Vite", "台北市 API"]
       },
       "ubike": {
         "category": "公共 API",

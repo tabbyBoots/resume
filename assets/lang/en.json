@@ -257,10 +257,10 @@
         "technologies": [".NET Core C# MVC", "Microsoft SQL Server", "JavaScript", "HTML/CSS"]
       },
       "weather": {
-        "category": "API Integration",
-        "title": "Weather Status Website",
-        "description": "Web application that integrates with external weather APIs to provide real-time weather information. Demonstrates API consumption, data parsing, and responsive user interface design.",
-        "technologies": [".NET Core", "Weather API", "JavaScript", "Responsive Design"]
+        "category": "Public API Integration",
+        "title": "U-Bike Availability Status Website",
+        "description": "Real-time U-Bike station availability tracking website using Taipei City's official API. Frontend built with Vue.js, backend powered by C# WebAPI, with Vite handling CI/CD pipeline.",
+        "technologies": ["Vue.js", "C# WebAPI", "Vite", "Taipei City API"]
       },
       "ubike": {
         "category": "Public API",

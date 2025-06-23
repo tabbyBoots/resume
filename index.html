@@ -272,7 +272,21 @@
         },
         "portfolio": {
           "title": "Portfolio",
-          "subtitle": "Showcase of my software development projects demonstrating backend development skills and practical application of technologies"
+          "subtitle": "Showcase of my software development projects demonstrating backend development skills and practical application of technologies",
+          "projects": {
+            "bookstore": {
+              "category": "E-Commerce",
+              "title": "BookLanding - Online Bookstore",
+              "description": "Full-stack e-commerce platform built with .NET Core C# MVC and Microsoft SQL Server. Features include product catalog, shopping cart, user authentication, and order management system.",
+              "technologies": [".NET Core C# MVC", "Microsoft SQL Server", "JavaScript", "HTML/CSS"]
+            },
+            "ubike": {
+              "category": "Public API Integration",
+              "title": "U-Bike Availability Status Website",
+              "description": "Real-time U-Bike station availability tracking website using Taipei City's official API. Frontend built with Vue.js, backend powered by C# WebAPI, with Vite handling CI/CD pipeline.",
+              "technologies": ["Vue.js", "C# WebAPI", "Vite", "Taipei City API"]
+            }
+          }
         },
         "contact": {
           "title": "Contact",
@@ -545,7 +559,21 @@
         },
         "portfolio": {
           "title": "作品集",
-          "subtitle": "展示我的軟體開發專案，證明後端開發技能和技術的實際應用"
+          "subtitle": "展示我的軟體開發專案，證明後端開發技能和技術的實際應用",
+          "projects": {
+            "bookstore": {
+              "category": "電子商務",
+              "title": "BookLanding - 線上書店",
+              "description": "使用 .NET Core C# MVC 與 Microsoft SQL Server 建構的全端電子商務平台。功能包括產品目錄、購物車、使用者認證與訂單管理系統。",
+              "technologies": [".NET Core C# MVC", "Microsoft SQL Server", "JavaScript", "HTML/CSS"]
+            },
+            "ubike": {
+              "category": "公共 API 整合",
+              "title": "U-Bike 可用性狀態網站",
+              "description": "使用台北市官方 API 的即時 U-Bike 站點可用性追蹤網站。前端使用 Vue.js 建構，後端採用 C# WebAPI，並使用 Vite 處理 CI/CD 流程。",
+              "technologies": ["Vue.js", "C# WebAPI", "Vite", "台北市 API"]
+            }
+          }
         },
         "contact": {
           "title": "聯絡我",
@@ -1076,21 +1104,20 @@
 
           <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="portfolio-wrap">
-              <img src="assets/images/project-2.jpg" class="img-fluid" alt="Weather API Project" loading="lazy">
+              <img src="assets/images/ubike.png" class="img-fluid" alt="U-Bike Availability Status Project" loading="lazy">
               <div class="portfolio-info">
                 <div class="content">
-                  <span class="category">API Integration</span>
-                  <h4>Weather Status Website</h4>
-                  <p>Web application that integrates with external weather APIs to provide real-time weather information. Demonstrates API consumption, data parsing, and responsive user interface design.</p>
+                  <span class="category">Public API Integration</span>
+                  <h4>U-Bike Availability Status Website</h4>
+                  <p>Real-time U-Bike station availability tracking website using <a href="https://tcgbusfs.blob.core.windows.net/dotapp/youbike/v2/youbike_immediate.json" target="_blank" style="color: var(--accent-color);">Taipei City's official API</a>. Frontend built with Vue.js, backend powered by C# WebAPI, with Vite handling CI/CD pipeline.</p>
                   <div class="technologies mb-2">
-                    <span class="badge bg-secondary me-1">.NET Core</span>
-                    <span class="badge bg-secondary me-1">Weather API</span>
-                    <span class="badge bg-secondary me-1">JavaScript</span>
-                    <span class="badge bg-secondary me-1">Responsive Design</span>
+                    <span class="badge bg-secondary me-1">Vue.js</span>
+                    <span class="badge bg-secondary me-1">C# WebAPI</span>
+                    <span class="badge bg-secondary me-1">Vite</span>
+                    <span class="badge bg-secondary me-1">Taipei City API</span>
                   </div>
                   <div class="portfolio-links">
-                    <a href="assets/images/project-2.jpg" class="glightbox" title="Weather Status Website"><i class="bi bi-plus-lg"></i></a>
-                    <a href="#" title="View Project"><i class="bi bi-arrow-right"></i></a>
+                    <a href="assets/images/ubike.png" class="glightbox" title="U-Bike Availability Status Website"><i class="bi bi-plus-lg"></i></a>
                   </div>
                 </div>
               </div>
@@ -1655,6 +1682,54 @@
       updatePortfolioSection(portfolio) {
         this.updateTextContent('.portfolio .section-title h2', portfolio.title);
         this.updateTextContent('.portfolio .section-title p', portfolio.subtitle);
+        
+        // Update portfolio project descriptions
+        if (portfolio.projects) {
+          const portfolioItems = document.querySelectorAll('.portfolio-wrap');
+          const projectKeys = ['bookstore', 'ubike']; // Only update the first two projects
+          
+          portfolioItems.forEach((item, index) => {
+            const projectKey = projectKeys[index];
+            if (portfolio.projects[projectKey]) {
+              const project = portfolio.projects[projectKey];
+              
+              // Update category
+              const categoryEl = item.querySelector('.category');
+              if (categoryEl) categoryEl.textContent = project.category;
+              
+              // Update title
+              const titleEl = item.querySelector('h4');
+              if (titleEl) titleEl.textContent = project.title;
+              
+              // Update description (preserve any HTML links for U-Bike project)
+              const descEl = item.querySelector('.portfolio-info p');
+              if (descEl && project.description) {
+                if (projectKey === 'ubike') {
+                  // This is the U-Bike project - handle the API link specially
+                  if (this.currentLanguage === 'en') {
+                    descEl.innerHTML = 'Real-time U-Bike station availability tracking website using <a href="https://tcgbusfs.blob.core.windows.net/dotapp/youbike/v2/youbike_immediate.json" target="_blank" style="color: var(--accent-color);">Taipei City\'s official API</a>. Frontend built with Vue.js, backend powered by C# WebAPI, with Vite handling CI/CD pipeline.';
+                  } else {
+                    descEl.innerHTML = '使用<a href="https://tcgbusfs.blob.core.windows.net/dotapp/youbike/v2/youbike_immediate.json" target="_blank" style="color: var(--accent-color);">台北市官方 API</a>的即時 U-Bike 站點可用性追蹤網站。前端使用 Vue.js 建構，後端採用 C# WebAPI，並使用 Vite 處理 CI/CD 流程。';
+                  }
+                } else {
+                  descEl.textContent = project.description;
+                }
+              }
+              
+              // Update technologies
+              const techContainer = item.querySelector('.technologies');
+              if (techContainer && project.technologies) {
+                techContainer.innerHTML = '';
+                project.technologies.forEach(tech => {
+                  const badge = document.createElement('span');
+                  badge.className = 'badge bg-secondary me-1';
+                  badge.textContent = tech;
+                  techContainer.appendChild(badge);
+                });
+              }
+            }
+          });
+        }
       }
 
       updateContactSection(contact) {
