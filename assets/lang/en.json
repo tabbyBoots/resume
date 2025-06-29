@@ -251,10 +251,10 @@
     "subtitle": "Showcase of my backend development projects demonstrating server-side development skills and practical application of technologies",
     "projects": {
       "bookstore": {
-        "category": "E-Commerce",
-        "title": "BookLanding - Online Bookstore",
-        "description": "Full-stack e-commerce platform built with .NET Core C# MVC and Microsoft SQL Server. Features include product catalog, shopping cart, user authentication, and order management system.",
-        "technologies": [".NET Core C# MVC", "Microsoft SQL Server", "JavaScript", "HTML/CSS"]
+        "category": "Frontend Application",
+        "title": "Taiwan Weather App",
+        "description": "Real-time weather information application for Taiwan cities and regions. Features current weather conditions, forecasts, location-based weather data, and responsive design using Vue.js and external weather APIs.",
+        "technologies": ["Vue.js", "Vite", "Weather API", "Responsive Design"]
       },
       "weather": {
         "category": "Public API Integration",

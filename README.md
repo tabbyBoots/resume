@@ -144,7 +144,7 @@ The project includes 6 different color schemes:
 - **Military Honors** - Awards and recognitions
 
 ### 5. Portfolio Section
-- **BookLanding** - E-commerce platform (.NET Core, SQL Server)
+- **Taiwan Weather App** - Frontend weather application (Vue.js, Vite, Weather API)
 - **Weather API Integration** - Real-time weather application
 - **U-Bike Status Tracker** - Public transportation API integration
 - **Personal Finance Tracker** - Financial management web application

@@ -251,10 +251,10 @@
     "subtitle": "展示後端開發專案，呈現伺服器端開發技能與技術實際應用",
     "projects": {
       "bookstore": {
-        "category": "電子商務",
-        "title": "BookLanding - 線上書店",
-        "description": "使用 .NET Core C# MVC 與 Microsoft SQL Server 建構的全端電子商務平台。功能包括產品目錄、購物車、使用者認證與訂單管理系統。",
-        "technologies": [".NET Core C# MVC", "Microsoft SQL Server", "JavaScript", "HTML/CSS"]
+        "category": "前端應用程式",
+        "title": "台灣天氣應用程式",
+        "description": "提供台灣城市與地區即時天氣資訊的應用程式。功能包括目前天氣狀況、天氣預報、基於位置的天氣資料，以及使用 Vue.js 和外部天氣 API 的響應式設計。",
+        "technologies": ["Vue.js", "Vite", "天氣 API", "響應式設計"]
       },
       "weather": {
         "category": "公共 API 整合",
