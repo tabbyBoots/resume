@@ -4,7 +4,7 @@ A professional portfolio website showcasing my journey from military service to 
 
 ## 🌟 Live Demo
 
-**Portfolio Website:** [https://tabbyboots.bloomski.com](https://tabbyboots.bloomski.com)
+**Portfolio Website:** [https://resume.bloomski.com](https://resume.bloomski.com)
 
 ## 📋 About This Project
 
